@@ -1,0 +1,261 @@
+body{
+background-image:linear-gradient(45deg,#ff3838, #ff9f1a, #fed330,#f39c12);
+font-family: sans-serif;
+margin: 0px 0px 0px 0px
+
+}
+
+#login{
+	width:20%;
+	position: absolute;
+	right: 4px;
+	top:2px;
+	border: 1px ridge #f39c12 ;
+	padding: 5px;
+	background: none;
+}
+
+#login:hover{
+	color:#80ff6c
+}
+
+
+
+.main{
+	margin: 75px 125px 100px 100px;
+	padding: 30px;
+	height:1100px;
+	width: 1100px;
+	background-color:#f6e58d;
+	border-radius: 30px;
+	line-height: 21px
+}
+
+#box_survei{
+	margin: 75px 125px 100px 100px;
+	padding: 30px;
+	height:350px;
+	width: 1100px;
+	background-color:#f6e58d;
+	border-radius: 30px;
+}
+
+h1{
+	color:#a3ff00;
+	text-align: center;
+	text-decoration:overline underline;
+
+}
+h3{
+	color:#a3ff00;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+#navigation{
+	background-image:linear-gradient(120deg,#e67e22,#f39c12,#ff7f50);
+	/*margin:0px 0px 0px 0px;*/
+	/*position: fixed;*/
+	display:inline-block;
+	width:1349px;
+
+
+
+}
+
+.menu{
+	background-image: none;
+	width: 60px;
+	display:inline-block;
+	text-align:center;
+	margin-left: 30px;
+	padding:10px 10px;
+	text-decoration: none;
+}
+
+.menu:link{
+	color:white;
+	background:none;
+}
+
+.menu:visited{
+	color:#00ff92;
+}
+
+.menu:hover{
+	color:pink;
+	background:none;
+}
+
+.menu:active{
+	color:white;
+	background:none;*
+}
+
+.q{
+	font-size: 18px;
+	line-height: 10px;
+}
+
+.waw{
+	font-size: 18px;
+	text-indent: 30px;
+	text-align: justify;
+}
+
+#wew{
+	text-indent:30px;
+	text-transform: capitalize;
+	text-align: justify;
+	max-width:62%;
+	display:inline-block;
+
+}
+
+#hero_ml{
+	z-index: -1;
+
+}
+#box{
+	position: absolute;
+	top: 380px;
+	right: 110px;
+	bottom: 200px;*/
+
+}
+#card{
+	height: 200px;
+	width: 400px;
+	background: none;
+	position: relative;
+	transition: 3s;
+	transform-style: preserve-3d;
+}
+
+#card:hover{
+	transform: rotateY(180deg);
+}
+
+#front{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+#back{
+	position: absolute;
+	top:0px;
+	right: 0px;
+	background: none;
+	backface-visibility: hidden;
+	height: 200px;
+	width: 400px;
+	transform: rotateY(180deg)
+}
+
+.figure{
+	position: relative;
+	left: -40px;
+ margin-right: 40px;
+}
+
+#gwan{
+	max-width: 60%;
+	float:right;
+
+}
+
+.gwen	{
+		text-align: justify;
+		text-indent: 30px;
+}
+
+#survei{
+	text-align: center;
+	text-decoration: overline underline;
+	font-weight: 600px;
+	font-size: 24px;
+	color:#ff00ce;
+
+}
+
+#lama_main{
+	width: 40%;
+	border: dashed;
+}
+
+#skin{
+	width: 40%;
+	float:left;
+	height:63px;
+	border: dashed;
+}
+
+#role_hero{
+	width:40%;
+	position:relative;
+	bottom :93px;
+	margin-left:25px;
+	float:left;
+	border: dashed;
+}
+
+#submit{
+	margin-left: 15px;
+
+}
+
+#footer{
+	clear: both;
+}
+#table{
+	border-collapse: collapse;
+
+}
+#table, .table_kolom, #table td{
+	border: 1px solid;
+}
+
+#table_nomor{
+	width: 20px;
+	border-bottom: 3px double
+}
+
+.table_kolom{
+	text-align: center;
+	width: 100px;
+	height:40px;
+	border-bottom: 3px double
+}
+
+#table td{
+	text-align: center;
+	vertical-align: middle;
+}
+
+.footer{
+	margin: 0px 0px 0px 0px;
+	padding: 15px;
+	height:250px;
+	width: 1318px;
+	background: #f6e58d;
+	line-height: 21px
+}
+
+#garis{
+	height:5px;
+	width: 1348px;
+	background-image: radial-gradient(#ff6348,#ff4d4d,#ff3838,#fff200)
+}
+
+#picture_chibi1{
+	position: absolute;
+	bottom:-1500px;
+	left:800px;
+}
+
+#picture_chibi2{
+	position: absolute;
+	bottom:-1500px;
+	left:1050px;
+}

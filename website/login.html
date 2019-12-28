@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Lesson</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" charset="utf-8"></script>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="login.css">
+  </head>
+  <body>
+    <form action="html1.html" class="form" name="form">
+      <h1>Login</h1>
+
+      <div class="isian">
+        <input type="text" name="soal" >
+        <span data-placeholder="Username"></span>
+      </div>
+
+      <div class="isian">
+        <input type="password" name="password1" value="">
+        <span data-placeholder="Password"></span>
+      </div>
+
+      <input type="submit" class="logbtn" value="Login" onclick="displayAnswer()">
+
+      <div class="bottom">
+        Don't have an account? <a href="#">Sign Up Here</a>
+      </div>
+    </form>
+
+    <script type="text/javascript">
+
+      $(".isian input").on("focus",function(){
+        $(this).addClass("focus");
+      });
+
+      $(".isian input").on("blur",function(){
+        if($(this).val() == "")
+        $(this).removeClass("focus");
+      });
+
+      var jawaban_soal = 10;
+      function displayAnswer(){
+        if(form.soal.value == jawaban_soal ){
+          a=eval(form.soal.value);
+          alert('selamat datang')
+  				location.href="html1.html";
+        }else{
+          alert("salah");
+        }
+      }
+    </script>
+
+  </body>
+</html>

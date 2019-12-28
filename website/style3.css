@@ -1,0 +1,184 @@
+body{
+background-image:linear-gradient(120deg,#FC427B,#f368e0,#9AECDB); /*url("../chipmunk.jpg") no-repeat fixed center;*/
+font-family: sans-serif;
+margin: 0px 0px 0px 0px;
+overflow-x: hidden;
+
+}
+
+.main{
+	margin: 75px 125px 100px 15px;
+	padding: 10px;
+	height:750px;
+	width: 1300px;
+	background: #FDA7DF;
+	border-radius: 20px;
+	line-height: 21px
+}
+
+h1{
+	color:#8854d0;
+	text-align: center;
+	text-decoration:overline underline;
+
+}
+h3{
+	color:#8854d0;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+#navigation{
+	background-image: linear-gradient(120deg,#FC427B,#f368e0,#9AECDB);
+	/*margin:0px 0px 0px 0px;*/
+	/*position: fixed;*/
+	display:inline-block;
+	width:1349px;
+}
+
+#login{
+	width:20%;
+	position: absolute;
+	right: 4px;
+	top:2px;
+	border: 1px ridge #09d0c2;
+	padding: 5px;
+	background-image: none;
+}
+
+#login:hover{
+	color:#80ff6c
+}
+
+.menu{
+	background-image:none;
+	/*height: 50px;*/
+	width: 60px;
+	display:inline-block;
+	text-align:center;
+	margin-left: 30px;
+	padding:10px 10px;
+	text-decoration: none;
+}
+
+.menu:link{
+	color:white;
+	background:none;
+}
+
+.menu:visited{
+	color:#00ff92;
+}
+
+.menu:hover{
+	color:pink;
+	background-color:rgba(72,84,96,0.1) ;
+}
+
+.menu:active{
+	color:white;
+	background:none;
+}
+
+
+.kuy:link{
+	color:#0004ff
+}
+
+.kuy:visited{
+	color:#ff00f4
+}
+
+.kuy:hover{
+	color:#00ffec;
+	background:#22ff00
+}
+
+.kuy:active{
+	color:white;
+	background:#22ff00
+}
+
+#batas{
+	background: #F588B5;
+	height: 5px
+}
+#label{
+	text-align: center;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 24px;
+}
+
+#video{
+	position: relative;
+	left: 10px;
+	border: double;
+}
+
+#cuyy{
+	margin: 75px 125px 100px 100px;
+	padding: 30px;
+	height:1100px;
+	width: 1100px;
+	background-color:#FDA7DF;
+	border-radius: 30px;
+
+}
+
+#test{
+	background-color: #25CCF7;
+	color: white;
+	text-indent: uppercase;
+	font-size: : 24px;
+}
+
+#jawaban{
+	background-image: linear-gradient(120deg,#FC427B,#ffcccc );
+	border: none;
+	border-radius: 5px;
+	color: white;
+	transition: .5s;
+	cursor: auto;
+	background-size: 200%
+}
+
+#jawaban:hover{
+	background-position: right;
+}
+
+#button{
+	background-image: linear-gradient(120deg, #a55eea, #34e7e4);
+	border: none;
+	border radius: 20px;
+	background-size: 200%;
+	width: 80px;
+	height: 20px;
+	outline: none;
+	cursor: pointer;
+	transition: .5s
+}
+
+#button:hover {
+	background-position: right;
+}
+
+#button2{
+	background-image: linear-gradient(120deg, pink, #a55eea, #34e7e4);
+	border: solid 2px white;
+	width: 200px;
+	height: 70px;
+	cursor : pointer;
+	transition: .9s;
+	background-size: 200%;
+	font-size: 18px;
+	font-weight: bold;
+	position: relative;
+	left: 900px;
+	bottom: 175px;
+
+}
+
+#button2:hover{
+	background-position: right;
+}

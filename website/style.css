@@ -1,0 +1,187 @@
+body{
+background-image:linear-gradient(120deg,#00d8d6,#0be881,#34e7e4); /*url("../chipmunk.jpg") no-repeat fixed center;*/
+font-family: sans-serif;
+margin: 0px 0px 0px 0px;
+overflow-x: hidden;
+
+}
+
+.main{
+	margin: 75px 125px 100px 100px;
+	padding: 30px;
+	height:1400px;
+	width: 1100px;
+	background: #dff9fb;
+	border-radius: 30px;
+	line-height: 21px
+}
+
+h1{
+	color:#a3ff00;
+	text-align: center;
+	text-decoration:overline underline;
+
+}
+h3{
+	color:#a3ff00;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+#navigation{
+	background-image: linear-gradient(120deg,#2d98da,#26de81,#45aaf2);
+	/*margin:0px 0px 0px 0px;*/
+	/*position: fixed;*/
+	display:inline-block;
+	width:1349px;
+}
+
+#login{
+	width:20%;
+	position: absolute;
+	right: 4px;
+	top:2px;
+	border: 1px ridge #09d0c2;
+	padding: 5px;
+	background-image: none;
+}
+
+#login:hover{
+	color:#80ff6c
+}
+
+.menu{
+	background-image:none;
+	/*height: 50px;*/
+	width: 60px;
+	display:inline-block;
+	text-align:center;
+	margin-left: 30px;
+	padding:10px 10px;
+	text-decoration: none;
+}
+
+.menu:link{
+	color:white;
+	background:none;
+}
+
+.menu:visited{
+	color:#00ff92;
+}
+
+.menu:hover{
+	color:pink;
+	background-color:rgba(72,84,96,0.1) ;
+}
+
+.menu:active{
+	color:white;
+	background:none;
+}
+
+
+.kuy:link{
+	color:#0004ff
+}
+
+.kuy:visited{
+	color:#ff00f4
+}
+
+.kuy:hover{
+	color:#00ffec;
+	background:none
+}
+
+.kuy:active{
+	color:white;
+	background:none
+}
+
+.q{
+	font-size: 18px;
+	line-height: 10px;
+}
+
+.waw{
+	font-size: 18px;
+	text-indent: 30px;
+	text-align: justify;
+}
+
+#gambar{
+	margin: 15px 0px 0px 20px;
+	position:relative;
+	top:40px
+}
+#wew{
+	text-indent:30px;
+	text-transform: capitalize;
+	text-align: justify;
+	max-width:70%;
+	display:inline-block;
+	float: left;
+}
+
+.gwen{
+		text-align: justify;
+		text-indent: 30px;
+}
+
+.details{
+	clear:both;
+
+}
+
+
+#rev{
+	float:left;
+}
+
+#rew{
+	float:left;
+	margin-left: 70px
+}
+
+#rere{
+	width:30%;
+	/*position: absolute;
+	top:750px;
+	right:50px;*/
+
+
+}
+
+#wawa{
+	position: relative;
+	top: -175px;
+	left: 550px;
+	clear: both;
+}
+
+#ink{
+	position: relative;
+	top: -300px;
+}
+
+.footer{
+	margin: 0px 0px 0px 0px;
+	padding: 15px;
+	height:250px;
+	width: 1349px;
+	background: #dff9fb;
+	line-height: 21px
+}
+
+#picture_chibi1{
+	position: absolute;
+	bottom:-1295px;
+	left:800px;
+}
+
+#picture_chibi2{
+	position: absolute;
+	bottom:-1295px;
+	left:1050px;
+}

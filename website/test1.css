@@ -1,0 +1,38 @@
+#box{
+	perspective: 200px;
+	position: absolute;
+	top: 200px;
+	right: 200px;
+	left:500px;
+	bottom: 200px;
+
+}
+#card{
+	height: 200px;
+	width: 400px;
+	background: red;
+	position: relative;
+	transition: 3s;
+	transform-style: preserve-3d;
+}
+
+#card:hover{
+	transform: rotateY(180deg);
+}
+
+#front{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+#back{
+	position: absolute;
+	top:0px;
+	right: 0px;
+	background: blue;
+	backface-visibility: hidden;
+	height: 200px;
+	width: 400px;
+	transform: rotateY(180deg)
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <script type="text/javascript">
+      function Angkot (sopir, trayek, penumpang, kas){
+        this.sopir = sopir;
+        this.trayek = trayek;
+        this.penumpang = penumpang;
+        this.kas    = kas;
+
+        this.penumpangNaik = function (namaPenumpang){
+          if( this.penumpang.length == 0){
+            this.penumpang.push(namaPenumpang);
+            return this.penumpang;
+          }else {
+          //telusuri seluruh kursi dari awal
+          for( var i = 0; i < this.penumpang.length; i++ ){
+            //jika ada kursi kosong
+            if( this.penumpang[i] == undefined){
+              //tambah penumpang di kursi tersebut
+              this.penumpang[i] = namaPenumpang;
+              //kembalikan isis array &keluar dari function
+              return this.penumpang;
+            }
+              //jika sudah ada nama yang sama
+            else if (this.penumpang [i] == namaPenumpang) {
+              //tampilkan pesan kesalahannya
+              alert("nama tersebut sudah ada")
+              //kembalikan isi array & keluar dari function
+              return this.penumpang;
+            }
+              //jika seluruh kursi terisi
+              else if (i == this.penumpang.length - 1) {
+                //tambah penumpang di akhir array
+                this.penumpang.push(namaPenumpang)
+                //kembalikan isi array & keluar dari funcion
+                return this.penumpang;
+              }
+
+            }
+          }
+        }
+        this.penumpangTurun = function (namaPenumpang,bayar){
+          if( this.penumpang.length == 0){
+            alert("angkot kosong woee")
+            return this.penumpang;
+          }
+         else {
+          for( var i = 0; i < this.penumpang.length; i++ ){
+            if(this.penumpang[i] == namaPenumpang){
+              this.penumpang[i] = undefined;
+              this.kas += bayar;
+              return this.penumpang;
+            } else if (i == this.penumpang.length - 1){
+              alert("tidak ada yang namanya " + namaPenumpang)
+              return this.penumpang;
+            }
+          }
+        }
+        }
+
+
+
+        }
+
+
+      var Angkot1 = new Angkot ("adi", ["ciputat","serpong"], [], 0)
+    </script>
+  </body>
+</html>

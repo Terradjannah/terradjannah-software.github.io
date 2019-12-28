@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title> lesson 3 </title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="style3.css">
+	</head>
+
+	<body>
+		<!--halaman barunya-->
+		<nav id="navigation">
+			<a href="html1.html" class="menu"> <b>Bagian 1</b> </a>
+			<a href="html2.html" class="menu">Bagian 2 </a>
+			<a href="html3.html" class="menu">Bagian 3 </a>
+		</nav>
+
+		<!--membuat form-->
+		<aside>
+			<details id="login">
+				<summary>
+					LOGIN
+				</summary>
+				<form>
+					<br>
+					<label for="username">Username:</label>
+					<input type="text" placeholder="username" id="username" required>
+					<br>
+					<label for="Password">Password: </label>
+					<input type="password" placeholder="password" id="password" required><br>
+					<input type="submit" >
+				</form>
+		</aside>
+
+		<main class="main">
+			<h1> Belajar Programming </h1>
+			<h3> Bagian 3 </h3>
+			<p id="label"><b>NONTON DILAN 1991 GRATIS!!!...</b></p><br>
+			<video width="1280" height="528" controls poster="../sumber/dilan.jpg" id="video">
+				<source src="../sumber/DILAN 1991.mp4" type="video/mp4">
+			</video>
+		</main>
+
+		<div id="cuyy">
+			<h1>JAVASCRIPT</h1>
+			<div id="test"></div>
+			<div id="ow"></div>
+
+
+			<div id="1">
+				<form name="form">
+				<span id="1.1"></span>=
+				<input type="text" name="soal" id="jawaban">
+			 	<input type=button name=submit  onclick="displayAnswer()" value="jawabbbb!!!" id="button">
+		 	</div>
+
+
+			<br>
+			<div id="contoh"></div>
+			<div id="2"> <span id="2.1"></div>
+			<div id="3"></div>
+			<div id="4"></div>
+			<br><div id="5"></div>
+			<div id="6">  </div>
+			<div id="7"></div>
+			<div id="8"></div>
+
+			<input type=button name=isengan  onclick="isenggabut()" value="JANGAN DI PENCET!" id="button2">
+		</div>
+
+	<script LANGUAGE="JavaScript">
+	//declaration variable
+		//tipe data number
+		var xy = 120;
+		var z  = 689;
+			//operator matematika
+		var jumlah = xy + z;
+		jumlah--; //increment(++) & decrement(--)
+		jumlah += xy
+
+		//metode-metod number; to fixed ; random; min; maks; round; cell; floor;
+		var soal = Math.floor(Math.random()*100) + 5;
+		var soal_ = Math.random().toFixed(2);
+
+		var jawaban_soal = soal * soal_;
+
+		function displayAnswer(){
+      if(form.soal.value == jawaban_soal ){
+        a=eval(form.soal.value);
+        alert("kamu benar");
+				location.href="http://youtube.com";
+      }else{
+        alert("kamu salah");
+      }
+    }
+
+		//tipe data string
+		var huruf = "haiii, mtk dulu ";
+		var huruf2 = "yuuukkkk!";
+		var campuran = huruf + huruf2;
+		var undefind = "gagagagagagagalll error"
+
+		//metode-metode string ; length, indexOf, lastindexof, search, charAt, toUpperCase, toLowerCase, replace, substring, substr, parseint, parsefloat
+		var contoh_tulisan = "cuyyyyy, main COD Mobile kuyy?";
+		var bag1 =contoh_tulisan.charAt(18)
+
+		//fungsi
+		function text (){
+			//command
+			  document.getElementById("test").innerHTML = campuran;
+			  document.getElementById("ow").innerHTML = jumlah;
+				document.getElementById("contoh").innerHTML = contoh_tulisan
+				document.getElementById("2.1").innerHTML = bag1;
+		}
+
+		//cara memanggil fungsi
+		text();
+
+		//bermain dengan parameter
+		function error(nama){
+			var zzzz = nama + " kamu yang disana";
+			document.getElementById("3").innerHTML = zzzz;
+		}
+		var nama = "uyyy";
+		error(nama);
+
+		//return pada JAVASCRIPT
+		function kalolo (angka, angka2){
+			return angka + angka2 + soal + soal_;
+		}
+
+		var tempo = kalolo (382.87, 98.39);
+		document.getElementById("4").innerHTML = tempo;
+
+		//array
+		var array =[soal_, soal];
+		document.getElementById("1.1").innerHTML = array.join("*");
+		document.getElementById("8").innerHTML = jawaban_soal;
+
+		//metode-metode dalam array
+		// sort; reverse; concat; length; join; splice; pop; push; shift; unshift
+		var metode_array  = [2198, 34562,21,34,"alice", "smith","kaori"]
+		var metode_array2 = [435, 1, 3455,87623, "kim", "youjin", "wilsonn", "laura"]
+		var gabungan2 = metode_array.sort()
+
+		metode_array.splice(3, 0, "hello")
+		metode_array2.unshift("kim")
+		document.getElementById("5").innerHTML = gabungan2.join("||");
+		document.getElementById("6").innerHTML = metode_array2.join("||")
+
+		//loop atau pengulangan; while; for; do while;
+		function isenggabut(){
+			var yakin1 = confirm("yah di pencet, yakin nih?")
+			if(yakin1 === true){
+				for(var iseng = 1; iseng <= 1000; iseng++){
+						alert("SPAM DETECTED " + iseng + " klik dari 1000 klik")
+				}
+			}else{
+				alert('anda selamat dari spam!!!')
+			}
+		}
+
+
+	</script>
+	</body>
+</html>
